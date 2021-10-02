@@ -2,3 +2,4 @@ src
 .prettierrc
 *.tgz
 tsconfig.json
+.github
