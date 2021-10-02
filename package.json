@@ -29,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Brawaru/userscript-header-generator.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
