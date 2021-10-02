@@ -1,0 +1,40 @@
+{
+  "name": "@braw/userscript-header-generator",
+  "version": "0.0.0-development",
+  "description": "Generating UserScript headers with ease",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "author": {
+    "name": "Brawaru",
+    "url": "https://github.com/Brawaru"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.4.2",
+    "semantic-release": "^18.0.0"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brawaru/userscript-header-generator.git"
+  }
+}

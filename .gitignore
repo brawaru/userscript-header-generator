@@ -1,0 +1,8 @@
+# Heaviest objects in the universe:
+node_modules
+
+# Compiled files:
+dist
+
+# Files built with NPM:
+*.tgz
