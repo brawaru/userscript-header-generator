@@ -7,19 +7,19 @@
 Via NPM:
 
 ```sh
-npm install --save-dev userscript-meta-generator
+npm install --save-dev @braw/userscript-meta-generator
 ```
 
 or using Yarn:
 
 ```
-yarn add --dev userscript-meta-generator
+yarn add --dev @braw/userscript-meta-generator
 ```
 
 ## 🔧 Usage
 
 ```
-import { createGenerator } from "userscript-meta-generator";
+import { createGenerator } from "@braw/userscript-meta-generator";
 ```
 
 This will export a function `createGenerator` with the following signature:
@@ -48,7 +48,7 @@ import {
   createGenerator,
   GeneratorOptionsInput,
   UserScriptMeta,
-} from "userscript-header-generator";
+} from "@braw/userscript-header-generator";
 import license from "rollup-plugin-license";
 
 type StrippedGeneratorOptions = Omit<GeneratorOptionsInput, "commentStyle">;
