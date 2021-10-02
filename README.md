@@ -2,8 +2,6 @@
 
 > Generating UserScript headers with ease.
 
-[![Commitizen friendly][cz_badge]][cz_doc]
-
 ## 📥 Installation
 
 Via NPM:
@@ -113,6 +111,4 @@ export function userScriptHeader(opts: IUserScriptHeaderOptions): Plugin {
 
 </details>
 
-[cz_badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
-[cz_doc]: http://commitizen.github.io/cz-cli/
 [license_plug]: http://npm.im/rollup-plugin-license
