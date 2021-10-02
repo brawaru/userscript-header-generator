@@ -8,7 +8,7 @@ import type {
   HashType,
   ResourceDescriptor,
 } from "./userScriptMeta";
-import { closeSync, openSync, readSync } from "fs";
+import { openSync, readSync } from "fs";
 
 export function toSignature(user: UserDescriptor) {
   let signature = user.name;
